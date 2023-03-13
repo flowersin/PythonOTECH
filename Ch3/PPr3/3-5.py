@@ -10,5 +10,5 @@ if salary >= MIN_SALARY:
     else:
         print('You must have been employed for ', MIN_YEARS, ' to qualify.')
 else:
-    print('You earn at least $', format(MIN_SALARY, '.2f'), ' per year to qualify')
+    print('You earn at least $', format(MIN_SALARY, ',.2f'), ' per year to qualify')
 
